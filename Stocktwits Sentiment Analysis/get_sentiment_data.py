@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 
 # Modify stuff below using the path to your Chrome driver installation
-cService = webdriver.ChromeService(executable_path='./chromedriver-mac-arm64/chromedriver')
+cService = webdriver.ChromeService(executable_path='../utils/chromedriver-mac-arm64/chromedriver')
 options = webdriver.ChromeOptions()
 # options.add_argument('--profile-directory=Profile 3') # Set the path to Profile 3 (find profile that is logged into StockTwits by visiting chrome://version)
 options.add_argument('--user-data-dir=/Users/blaineh2/Library/Application Support/Google/Chrome/Default')  # CHANGE to your path to Chrome profile (using default for now)
